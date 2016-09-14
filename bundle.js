@@ -11,10 +11,10 @@ var canvas = document.getElementById('screen');
 var game = new Game(canvas, update, render);
 var player = new Player({x: 382, y: 440});
 var snakes = [];
-for(var i=0; i < 20; i++) {
+for(var i=0; i < 1000; i++) {
   snakes.push(new Snake({
     x: Math.random() * 760,
-    y: Math.random() * 20 + 100
+    y: Math.random() * 200 + 100
   }));
 }
 

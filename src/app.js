@@ -16,6 +16,7 @@ for(var i=0; i < 20; i++) {
     y: Math.random() * 20 + 100
   }));
 }
+snakes.sort(function(s1, s2) { return s1.y - s2.y;});
 
 /**
  * @function masterLoop
